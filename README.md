@@ -16,7 +16,7 @@ A sleek, modern React application featuring:
 
 Clone the repo and install dependencies:
 
-git clone https://github.com/your-username/fancy-react-form.git
+git clone https://github.com/vik802207/FormValidation.git
 npm install
 npm start
 ## 🛠 Features
