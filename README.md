@@ -50,6 +50,8 @@ Details page displays submitted fields in a styled card layout
 ## ScreenShot
 ![Alt text](https://github.com/vik802207/FormValidation/blob/main/img/Screenshot%20(391).png)
 ![Alt text](https://github.com/vik802207/FormValidation/blob/main/img/Screenshot%20(390).png)
+## 🚀 Live Demo
 
+[![Live Demo](https://img.shields.io/badge/View-Live-green?style=for-the-badge&logo=github)](https://form-validation-seven-swart.vercel.app/)
 ## 📞 Contact
 For any queries, reach out to me at vikashg802207@gmail.com
