@@ -48,7 +48,8 @@ Submitted data is passed using React Router’s state prop
 Details page displays submitted fields in a styled card layout
 
 ## ScreenShot
-![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(332).png?raw=true)
+![Alt text](https://github.com/vik802207/FormValidation/blob/main/img/Screenshot%20(391).png)
+![Alt text](https://github.com/vik802207/FormValidation/blob/main/img/Screenshot%20(390).png)
 
 ## 📞 Contact
 For any queries, reach out to me at vikashg802207@gmail.com
