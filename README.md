@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# 🚀 Fancy React Form with Validation & Routing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek, modern React application featuring:
 
-## Available Scripts
+- Form validation without third-party libraries  
+- Realtime error messages  
+- Password visibility toggle  
+- Country & city dropdowns  
+- Submit button enabled only when the form is valid  
+- Fancy CSS styling with gradients, shadows, and smooth transitions  
+- Post-submission route displaying a summary of submitted data  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📦 Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone the repo and install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone https://github.com/your-username/fancy-react-form.git
+npm install
+npm start
+## 🛠 Features
+🔐 Form Fields: First Name, Last Name, Username, Email, Password, Phone (code + number), Country, City, PAN, Aadhar
 
-### `npm test`
+✅ Validation:
+Email: Valid format
+Password: Minimum 6 characters
+Phone: 10-digit only
+PAN: ABCDE1234F format
+Aadhar: 12-digit
+🎨 Fancy CSS: Gradients, shadows, transitions, and neumorphism-style inputs
+🔀 Uses react-router-dom for routing between form and submitted details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📂 Folder Structure
+src/
+│
+├── App.js
+├── FormPage.jsx
+├── FormPage.css
+├── DetailsPage.jsx
+├── DetailsPage.css
+├── data.js          
+└── index.js
 
-### `npm run build`
+## 📤 Submit Behavior
+Form submission triggers navigation to /details
+Submitted data is passed using React Router’s state prop
+Details page displays submitted fields in a styled card layout
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ScreenShot
+![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(332).png?raw=true)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📞 Contact
+For any queries, reach out to me at vikashg802207@gmail.com
