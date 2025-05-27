@@ -15,10 +15,11 @@ A sleek, modern React application featuring:
 ## 📦 Installation
 
 Clone the repo and install dependencies:
-
+```bash
 git clone https://github.com/vik802207/FormValidation.git
 npm install
 npm start
+```
 ## 🛠 Features
 🔐 Form Fields: First Name, Last Name, Username, Email, Password, Phone (code + number), Country, City, PAN, Aadhar
 
